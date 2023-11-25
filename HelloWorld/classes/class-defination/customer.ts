@@ -2,7 +2,7 @@ class customer{
     first_name:string;
     last_name:string;
 
-    constructor(theFrst,theLast){
+    constructor(theFrst:string,theLast:string){
         this.first_name=theFrst;
         this.last_name=theLast;
     }
